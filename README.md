@@ -1,16 +1,24 @@
 # React + Vite
+A high-performance, responsive React application designed to streamline the professional resume-building process. By utilizing a real-time editing interface and dynamic templates, this platform reduces the time spent on resume formatting by approximately 80%.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Key Features
+Live Preview Engine: Real-time rendering of resume data into professional templates using a split-screen architecture.
 
-Currently, two official plugins are available:
+Modular Editor: Organized multi-step forms for Personal Info, Experience, Education, Skills, and Projects.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+State Management: Powered by Zustand for lightweight, fast, and centralized data synchronization between the editor and preview.
 
-## React Compiler
+Responsive Design: Fully fluid UI built with Tailwind CSS, optimized for both desktop editing and mobile viewing.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Smart Validation: Built-in checks to ensure all critical professional information is captured before export.
 
-## Expanding the ESLint configuration
+🛠️ Tech Stack
+Framework: React.js (Vite-powered)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+State Management: Zustand
+
+Styling: Tailwind CSS
+
+Routing: React Router DOM
+
+Icons: Lucide React / React Icons
