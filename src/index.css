@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-slate-900 antialiased;
+  }
+}
+
+/* Print specific styles for perfect PDF generation */
+@media print {
+  @page {
+    margin: 0;
+    size: A4;
+  }
+  body {
+    background-color: white;
+  }
+  .print-hide {
+    display: none !important;
+  }
+}
